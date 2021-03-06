@@ -1,0 +1,39 @@
+form{
+    border-radius: 25px;
+    border-width: medium;
+    border-style: solid;
+    padding: 30px;
+    text-align: center;
+
+}
+
+label{
+    float: left;
+    clear: both;
+
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="date"] {
+    float: right;
+}
+#enviar{
+    margin-top: 7%;
+    position: relative;
+}
+#error_pass{
+    clear:both;
+
+}
+.invalid{
+    border-color: red;
+
+}
+
+#error_nombreUsuario{
+    clear:both;
+
+}
+#error_fechaNacimiento{
+    clear:both;
+
+}
